@@ -1,0 +1,10 @@
+var bulk = db.drinks.initializeUnorderedBulkOp();
+bulk.insert({"name": "Beer One", "type1" : "Beer", "type2" : "Pale Ale", "price": "5", "stock" : "25"});
+bulk.insert({"name": "Beer Two", "type1" : "Beer", "type2" : "Dark", "price": "7", "stock" : "10"});
+bulk.insert({"name": "Wine One", "type1" : "Wine", "type2" : "Red", "price": "12", "stock" : "10"});
+bulk.insert({"name": "Wine Two", "type1" : "Wine", "type2" : "White", "price": "11", "stock" : "10"});
+bulk.insert({"name": "Wine Three", "type1" : "Wine", "type2" : "Rose", "price": "12", "stock" : "10"});
+bulk.insert({"name": "Rhum One", "type1" : "Spirits", "type2" : "Rhum", "price": "37", "stock" : "7"});
+bulk.insert({"name": "Vodka Two", "type1" : "Spirits", "type2" : "Vodka", "price": "39", "stock" : "8"});
+bulk.insert({"name": "Liqueur Three", "type1" : "Spirits", "type2" : "Liqueur", "price": "35", "stock" : "5"});
+bulk.execute();
