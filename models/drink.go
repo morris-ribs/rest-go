@@ -8,8 +8,8 @@ type Drink struct {
 	Name  string        `json:"name"`
 	Type1 string        `json:"type1"`
 	Type2 string        `json:"type2"`
-	Price float32       `json:"price"`
-	Stock int           `json:"stock"`
+	Price string        `json:"price"`
+	Stock string        `json:"stock"`
 }
 
 //Drinks is an array of Drink
