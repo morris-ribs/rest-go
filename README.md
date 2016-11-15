@@ -15,13 +15,22 @@ type Drink struct {
 }
 ```
 
-# Pre-requisites
+# Running with Docker
+
+To run the code with Docker:
+
+1. Download and install Docker and docker-compose to your machine
+2. Run the command `$ docker-compose up` in a terminal
+3. Use an API client to make the calls
+
+# Running locally: Pre-requisites
 
 1. Install and configure Go: https://golang.org/dl/
 2. Install Mongo DB: https://docs.mongodb.com/manual/installation/?jmp=footer
 3. Download Mgo project: `go get gopkg.in/mgo.v2`
+4. Download gorilla project: `go get github.com/gorilla/mux`
 
-# To run the project
+# To run the project locally
 
 ## Start Mongo DB
 
@@ -33,10 +42,4 @@ type Drink struct {
 
 In a terminal, go to the root folder of the project and launch it with the following command: `go run main.go`
 
-## Running with Docker
 
-To run the code with Docker:
-
-1. Download and install Docker and docker-compose to your machine
-2. Run the command `$ docker-compose up` in a terminal
-3. Use an API client to make the calls
