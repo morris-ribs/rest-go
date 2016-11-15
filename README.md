@@ -33,6 +33,10 @@ type Drink struct {
 
 In a terminal, go to the root folder of the project and launch it with the following command: `go run main.go`
 
-# TODO
+## Running with Docker
 
-I am going to create a docker file in order to make it possible to build the project into an image.
+To run the code with Docker:
+
+1. Download and install Docker and docker-compose to your machine
+2. Run the command `$ docker-compose up` in a terminal
+3. Use an API client to make the calls
