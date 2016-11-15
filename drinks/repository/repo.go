@@ -6,11 +6,11 @@ import (
 
 	"github.com/rest-go/drinks/models"
 	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
+	"gopkg.in/mgo.v2/bson"	
 )
 
 // SERVER the DB server
-const SERVER = "localhost:27017"
+const SERVER = "db:27017"
 
 // DBNAME the name of the DB instance
 const DBNAME = "dbdrinks"
