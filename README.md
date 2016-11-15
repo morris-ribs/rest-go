@@ -19,7 +19,7 @@ type Drink struct {
 
 To run the code with Docker:
 
-1. Download and install Docker and docker-compose to your machine
+1. Download and install Docker - https://docs.docker.com/engine/installation/ - and docker-compose - https://docs.docker.com/compose/install/ - into your machine
 2. Run the command `$ docker-compose up` in a terminal
 3. Use an API client to make the calls
 
