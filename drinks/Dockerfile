@@ -10,10 +10,10 @@ ADD . /go/src/github.com/rest-go/drinks
 # either manually or with a tool like "godep".)
 RUN go get github.com/gorilla/mux
 RUN go get gopkg.in/mgo.v2
-RUN go install drinks
+RUN go install github.com/rest-go/drinks
 
 # Run the drinks command by default when the container starts.
-ENTRYPOINT /go/bin/rest-go/drinks
+ENTRYPOINT ["/go/bin/drinks"]
 
 # Document that the service listens on port 8080.
-EXPOSE 9000
+EXPOSE 10000
