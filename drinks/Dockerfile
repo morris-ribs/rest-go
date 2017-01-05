@@ -15,5 +15,5 @@ RUN go install github.com/rest-go/drinks
 # Run the drinks command by default when the container starts.
 ENTRYPOINT ["/go/bin/drinks"]
 
-# Document that the service listens on port 8080.
+# Document that the service listens on port 10000.
 EXPOSE 10000
